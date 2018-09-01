@@ -29,6 +29,7 @@ public class KafkaProperties {
 
   public Properties getProperties() {
     return this.prop;
+
   }
 
   public void addConfig(String key, String value) {
