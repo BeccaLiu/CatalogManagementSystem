@@ -1,0 +1,20 @@
+{
+  "namespace":"com.rebekkaxi.avro",
+  "type":"record",
+  "name":"ProductInfo",
+  "fields":[
+    {"name":"PogId", "type":"int"},
+    {"name":"Supc", "type":["int","null"]},
+    {"name":"Brand", "type":["string","null"]},
+    {"name":"Description", "type":["string","null"]},
+    {"name":"Size", "type":["string","null"]},
+    {"name":"Category", "type":["string","null"]},
+    {"name":"SubCategory", "type":["string","null"]},
+    {"name":"Price", "type":"int"},
+    {"name":"Quantity", "type":"int"},
+    {"name":"Country", "type":["string","null"]},
+    {"name":"SellerCode", "type":["int","null"]},
+    {"name":"CreationTime", "type":["string","null"]},
+    {"name":"Stock", "type":["string","null"]}
+  ]
+}
